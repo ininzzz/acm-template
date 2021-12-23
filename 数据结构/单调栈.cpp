@@ -1,0 +1,12 @@
+/*
+while(!stk.empty()&&number[i]<stk.top().first){
+    if(stk.top().first*(sum[i-1]-sum[stk.top().second-1])>ans){
+        ans=stk.top().first*(sum[i-1]-sum[stk.top().second-1]);
+        lo=stk.top().second;
+        hi=i-1;
+    }
+    left=stk.top().second;
+    stk.pop();
+}
+stk.push(make_pair(number[i],left));
+*/
